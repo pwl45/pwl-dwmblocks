@@ -2,23 +2,23 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/						/*Update Interval*/	/*Update Signal*/
 	//memory usage
-	{" ", "/$HOME/pwl-dwmblocks/messages.sh",				2,			0},
+	{" ", "$HOME/pwl-dwmblocks/messages.sh",				2,			0},
 
-	{"", "/$HOME/pwl-dwmblocks/stocks.sh",					30,			0},
+	{"", "$HOME/pwl-dwmblocks/stocks.sh",					30,			0},
 
 
 	{" | Mem: ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | tr -d 'i'",	2,			0},
 
 	// battery info
-	{" | Bat: ", "/$HOME/pwl-dwmblocks/bat.sh",				10,			0},
+	{" | Bat: ", "$HOME/pwl-dwmblocks/bat.sh",				10,			0},
 
 	{" Vol: ", "pulsemixer --get-volume | cut -d ' ' -f1",			1,			0},
 
 	// network name
-	{" | ", "/home/paul/scripts/network/netstrength",			5,			0},
+	{" | ", "$HOME/pwl-dotfiles/scripts/network/netstrength",			5,			0},
 
 
-	{" | ", "date",								1,			0},
+	{" | ", "date \"+%b %d %H:%M:%S\"",								1,			0},
 
 };
 

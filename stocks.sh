@@ -1,2 +1,3 @@
 #!/usr/bin/env sh
-pains ROIV:NASDAQ GAFSX:MUTF
+#echo "$( spur ROIV:NASDAQ ) $( spur GAFSX:MUTF )"
+spur ROIV:NASDAQ
