@@ -28,10 +28,10 @@ clean:
 install: dwmblocks
 	mkdir -p ${DESTDIR}${PREFIX}/bin
 	cp -f dwmblocks ${DESTDIR}${PREFIX}/bin
-	chmod 755 ${DESTDIR}${PREFIX}/bin/dwmblocks
 	cp -f bat.sh ${DESTDIR}${PREFIX}/dwmblocks-battery
 	cp -f messages.sh ${DESTDIR}${PREFIX}/dwmblocks-messages
 	cp -f stocks.sh ${DESTDIR}${PREFIX}/dwmblocks-stocks
+	chmod 755 ${DESTDIR}${PREFIX}/bin/dwmblocks-*
 
 uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwmblocks
