@@ -2,15 +2,15 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/						/*Update Interval*/	/*Update Signal*/
 	//memory usage
-	{" ", "$HOME/pwl-dwmblocks/messages.sh",				2,			0},
+	{" ", "dwmblocks-messages",				2,			0},
 
-	{"", "$HOME/pwl-dwmblocks/stocks.sh",					30,			0},
+	{"", "dwmblocks-stocks",					30,			0},
 
 
 	{" | Mem: ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | tr -d 'i'",	2,			0},
 
 	// battery info
-	{" | Bat: ", "$HOME/pwl-dwmblocks/bat.sh",				10,			0},
+	{" | Bat: ", "dwmblocks-batter",				10,			0},
 
 	{" Vol: ", "pulsemixer --get-volume | cut -d ' ' -f1",			1,			0},
 
