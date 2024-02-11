@@ -4,7 +4,7 @@ static const Block blocks[] = {
 	//memory usage
 	{" ", "dwmblocks-messages",				2,			0},
 
-	{"", "dwmblocks-stocks",					30,			0},
+	/* {"", "dwmblocks-stocks",					30,			0}, */
 
 
 	{" | Mem: ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | tr -d 'i'",	2,			0},
