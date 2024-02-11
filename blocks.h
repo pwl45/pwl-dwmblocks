@@ -10,7 +10,7 @@ static const Block blocks[] = {
 	{" | Mem: ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | tr -d 'i'",	2,			0},
 
 	// battery info
-	{" | Bat: ", "dwmblocks-battery",				10,			0},
+	{" | Batxx: ", "dwmblocks-battery",				10,			0},
 
 	{" Vol: ", "pulsemixer --get-volume | cut -d ' ' -f1",			1,			0},
 
