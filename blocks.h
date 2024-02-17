@@ -2,7 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/						/*Update Interval*/	/*Update Signal*/
 	//memory usage
-	{" ", "dwmblocks-messages",				2,			0},
+	{"", "dwmblocks-messages",				2,			0},
 
 	/* {"", "$HOME/pwl-dotfiles/scripts/stocks.sh",					30,			0}, */
 
