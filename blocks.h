@@ -12,7 +12,7 @@ static const Block blocks[] = {
 	// battery info
 	{" | Bat: ", "dwmblocks-battery",				10,			0},
 
-	{" Vol: ", "pulsemixer --get-volume | cut -d ' ' -f1",			1,			0},
+	{" Vol: ", "dwmblocks-vol",			1,			0},
 
 	// network name
 	{" | ", "dwmblocks-netstrength",			5,			0},

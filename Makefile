@@ -37,6 +37,8 @@ install: dwmblocks
 	chmod 755 ${DESTDIR}${PREFIX}/bin/dwmblocks-stocks
 	cp -f netstrength.sh ${DESTDIR}${PREFIX}/bin/dwmblocks-netstrength
 	chmod 755 ${DESTDIR}${PREFIX}/bin/dwmblocks-netstrength
+	cp -f vol.sh ${DESTDIR}${PREFIX}/bin/dwmblocks-vol
+	chmod 755 ${DESTDIR}${PREFIX}/bin/dwmblocks-vol
 
 uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwmblocks
